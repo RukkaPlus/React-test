@@ -1,0 +1,6 @@
+.about-cont > article {
+  border: .1em solid #000;
+  padding: .5em;
+  background: #333;
+  color: #ddd;
+}

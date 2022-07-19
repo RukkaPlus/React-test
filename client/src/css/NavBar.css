@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #163653;
+  color: #ddd;
+}
+.navbar > img {
+  height: 2em;
+}
+.navbar > .expand {
+  flex-grow: 1;
+}
+.navbar > ul {
+  display: flex;
+  justify-self: flex-end;
+  list-style: none;
+}
+.navbar > ul > li {
+  margin: 0 2em;
+  padding: 0;
+}
+.navbar > ul a {
+  color: #ddd;
+  text-decoration: none;
+}
+.navbar > ul a.active {
+  font-weight: bold;
+}
